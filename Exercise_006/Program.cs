@@ -12,3 +12,18 @@ int b = number % 10;
 Console.Write ("Вторая цифра заданного числа: ");
 Console.WriteLine (b);
 
+if (a > b) {
+    
+    Console.Write ("Наибольшая цифра заданного числа: ");
+    Console.WriteLine (a);
+
+} else if (b > a) { 
+    
+    Console.Write ("Наибольшая цифра заданного числа: ");
+    Console.WriteLine (b);
+
+} else {
+
+    Console.WriteLine ("Цифры заданного числа равны!");
+
+}
