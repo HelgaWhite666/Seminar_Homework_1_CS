@@ -1,6 +1,6 @@
 ﻿// По заданному номеру дня недели вывести его название
 
-Console.Write ("Введите число от 1 до 7 включительно:");
+Console.Write ("Введите число от 1 до 7 включительно: ");
 int dayNumber = int.Parse (Console.ReadLine());
 
 if (dayNumber == 1) Console.WriteLine ("Первый день недели - понедельник.");
