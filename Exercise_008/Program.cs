@@ -4,7 +4,7 @@ int number = new Random().Next(10,999);
 Console.Write ("Дано число: ");
 Console.WriteLine (number);
 
-Console.Write ("Введите любое число от 2 до 9: ");
+Console.Write ("Введите любое число от 2 до 100: ");
 int a = int.Parse (Console.ReadLine());
 
 if (number % a == 0) {
