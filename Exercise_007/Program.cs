@@ -1,6 +1,6 @@
 ﻿// Удалить вторую цифру трёхзначного числа
 
-int number = new Random().Next(100,999);
+int number = new Random().Next(100,1000);
 Console.Write ("Дано число: ");
 Console.WriteLine (number);
 
