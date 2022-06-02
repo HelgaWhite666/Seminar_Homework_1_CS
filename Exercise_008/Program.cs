@@ -1,6 +1,6 @@
 ﻿// Выяснить, кратно ли число заданному, если нет, вывести остаток
 
-int number = new Random().Next(10,999);
+int number = new Random().Next(10,1000);
 Console.Write ("Дано число: ");
 Console.WriteLine (number);
 
