@@ -19,6 +19,6 @@ if (a > b && a > c) {
 } else if (c > a && c > b) {
     Console.Write ("Наибольшее число = ");
     Console.WriteLine (c);
- }else {
+ } else {
     Console.WriteLine ("Числа равны!");
  }
